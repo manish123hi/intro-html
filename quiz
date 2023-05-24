@@ -1,0 +1,16 @@
+print("welcome to my computer quiz ")
+playing = input("do you want to start the game")
+
+if playing != "yes":   
+    quit()
+print("ok lets play :)")
+answer = input("what i s the meaning of cpu?")
+if answer == "central processing unit":
+    print("correct")    
+else:
+    print("wrong")
+answer = input("what is the capital of nepal?")
+if answer == "kathmandu":
+    print("correct")    
+else:
+  print("wrong")
